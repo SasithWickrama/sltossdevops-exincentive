@@ -1,0 +1,5 @@
+2023-07-03 19:07:09,172-INFO-Exception : Traceback (most recent call last):
+  File "D:\Developements\ExIncentive\db.py", line 17, in dbconn
+    conn = cx_Oracle.connect(user=const.user, password=const.password, dsn=dsn_tns)
+cx_Oracle.DatabaseError: ORA-12170: TNS:Connect timeout occurred
+
